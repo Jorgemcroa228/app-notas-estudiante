@@ -67,7 +67,7 @@ assertEquals(34_000, subtotal, 0.001);
         // Arrange: carrito vacío de setUp()
         // Act + Assert
         assertThrows(IllegalArgumentException.class,
-                () -> carrito.agregarProducto("Cuaderno", 5_000, 0));
+                () -> carrito.agregarProducto("Cuaderno", 5_000,0));
     }
     
         @Test
