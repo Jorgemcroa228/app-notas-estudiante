@@ -28,6 +28,7 @@ assertEquals(4.1, resultado, 0.001);
 void estaAprobado_notaMayorATres_retornaTrue() {
 assertTrue(calculadora.estaAprobado(3.5));
 }
+
 @Test
 @DisplayName("Un estudiante con 2.9 reprueba")
 void estaAprobado_notaMenorATres_retornaFalse() {
